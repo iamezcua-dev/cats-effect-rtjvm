@@ -6,6 +6,23 @@
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
+# IntelliJ IDEA project files
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules/cats-effect-build.iml
+.idea/modules/cats-effect.iml
+.idea/sbt.xml
+.idea/scala_compiler.xml
+.idea/scala_settings.xml
+.idea/vcs.xml
+.idea/.name
+.idea/inspectionProfiles/
+.idea/modules/
+
+# Build Server Protocol (BSP) files
+.bsp/sbt.json
+
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
