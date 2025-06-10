@@ -4,7 +4,7 @@ val scala3Version = "3.3.6"
 lazy val root = project
   .in(file("."))
   .settings(
-    name := "cats-effect",
+    name := "cats-effect-rtjvm",
     version := "0.1.0",
     scalaVersion := scala2Version,
     libraryDependencies ++= Seq(
